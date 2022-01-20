@@ -7,20 +7,8 @@ body {
     background-color: #141516;
 }
 
-#image {
-    width: 30%;
-    position: absolute;
-    right: 0px;
-    height: 100%;
-    clear: both;
-}
-
-#headshot {
-    position: relative;
-    height: 70%;
-    float: right;
-    margin: 50px 0 0 0;
-
+header{
+    border:solid #141516 1px;
 }
 
 #logo {
@@ -37,12 +25,75 @@ body {
 
 }
 
-/* nav {
+#image {
+    width: 30%;
+    position: absolute;
+    right: 0px;
+    height: 100%;
+    clear: both;
+}
+
+#headshot {
+    position: relative;
+    height: 70%;
+    float: right;
+    margin: 50px 0 0 0;
+
+}
+
+nav {
     position: relative;
     width: 50%;
-    margin: 20% 0 0 20%;
-} */
+    margin: 15% 0 0 20%;
+}
 
 #intro {
-    color: #32828a
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-size: 40px;
+    letter-spacing: 1.4px;
+    word-spacing: -1.6px;
+    color: #32828A;
+    text-shadow: 1.5px 1.5px 2px #d85252;
+    font-weight: 700;
+}
+
+nav {
+    position: inherit;
+    margin: 15% 0 0 20%;
+}
+
+#para {
+
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-size: 20px;
+    letter-spacing: 1.4px;
+    word-spacing: -1.6px;
+    color: #32828A;
+    text-shadow: 1.5px 1.5px 2px #d85252;
+    font-weight: 700;
+}
+
+#button {
+    color: #32828A; 
+    font-size: 24px; 
+    line-height: 24px; 
+    padding: 17px; 
+    border-radius: 19px; 
+    font-family: "Arial Black", Gadget, sans-serif; 
+    font-weight: 700; 
+    text-decoration: none; 
+    font-style: normal; 
+    font-variant: normal; 
+    text-transform: none; 
+    background-color: #d85252; 
+    box-shadow: #32828A 1px 1px 8px 1px; 
+    border: 2px solid #d85252; 
+}
+    
+#button:hover {
+    background: #1C6EA4; 
+}
+
+#button:active {
+    background: #144E75; 
 }
