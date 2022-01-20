@@ -1,0 +1,52 @@
+/*CSS reset settings here, you can adjust below codes*/
+*{
+    margin: 0px;
+    padding: 0px;
+   }
+
+   #wrapper{
+    margin: auto;
+    width: 75%;
+    background-color: silver;
+    margin: 0px auto;
+   }
+   
+   #header{
+    position: relative;
+    top: 25px;
+    left: 5%;
+    width: 90%;
+    min-height: 150px;
+    background-color: green;
+   }
+   #navigation{
+    position: relative;
+    min-height: 300px;
+    width: 200px;
+    top: 50px;
+    left:5%;
+    background-color: blue;
+   }
+   #main_content{
+    position: relative;
+
+
+    min-height: 400px;
+    width: 65%;
+    top: -250px;
+    left: 30%;
+    right: 5%;
+    background-color: red;
+   }
+
+
+   /* .subcontents{
+    min-height: 200px;
+    width: 210px;
+    background-color: yellow;
+   }
+   #advertisement{
+    min-height: 120px;
+    width: 660px;
+    background-color: purple;
+   } */

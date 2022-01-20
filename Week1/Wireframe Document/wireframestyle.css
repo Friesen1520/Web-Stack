@@ -1,0 +1,135 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#page {
+    margin: auto;
+    width: 75%;
+    min-height: 300px;
+    background-color: white;
+    border: 3px solid black;
+    margin: 0px auto;
+}
+
+#header {
+    position: relative;
+    width: 100%;
+    min-height: 50px;
+    background-color: #e4e4e4;
+}
+
+#ltxt {
+    position: relative;
+    left: 20px;
+}
+
+#search {
+    position: relative;
+    left: 100px;
+    width: 35%;
+    top: -20px;
+    border: 1px solid rgb(190, 190, 190);
+    text-align: center;
+}
+
+#icons {
+    position: relative;
+    float: right;
+    right: 20px;
+    width: 35%;
+    top: -40px;
+    border: 1px solid rgb(190, 190, 190);
+    text-align: center;
+}
+
+#title {
+    position: relative;
+    left: 20px;
+    width: 45%;
+    top: 30px;
+    min-height: 100px;
+    border: 1px solid black;
+    text-align: center;
+    line-height: 100px;
+}
+
+#social {
+    position: relative;
+    left: 20px;
+    width: 45%;
+    top: 40px;
+    min-height: 120px;
+    border: 1px solid black;
+    text-align: center;
+    line-height: 120px;
+}
+
+#photo {
+    position: relative;
+    float: right;
+    right: 20px;
+    width: 45%;
+    top: -194px;
+    min-height: 233px;
+    background-color: #e4e4e4;
+    border: 1px solid black;
+    text-align: center;
+    line-height: 233px;
+}
+
+hr {
+    position: relative;
+    width: 600px;
+    top: -170px;
+}
+
+#name {
+    position: relative;
+    padding-left: 10px;
+    left: 20px;
+    width: 43%;
+    top: -140px;
+    min-height: 30px;
+    border: 1px solid black;
+    text-align: left 10px;
+    line-height: 30px;
+}
+
+#email {
+    position: relative;
+    padding-left: 10px;
+    left: 20px;
+    width: 43%;
+    top: -130px;
+    min-height: 30px;
+    border: 1px solid black;
+    text-align: left;
+    line-height: 30px;
+}
+
+#message {
+    position: relative;
+    float: right;
+    padding-left: 10px;
+    right: 20px;
+    width: 43%;
+    top: -205px;
+    min-height: 73px;
+    border: 1px solid black;
+    text-align: left;
+    line-height: 20px;
+}
+
+
+#footer {
+    position: relative;
+    vertical-align: middle;
+    min-height: 50px;
+    top: 0px;
+    background-color: #e4e4e4;
+    border: 1px solid rgb(190, 190, 190);
+    text-align: center;
+    line-height: 50px;
+}
+
