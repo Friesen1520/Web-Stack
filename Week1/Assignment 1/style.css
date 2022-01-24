@@ -34,19 +34,28 @@
     min-height: 400px;
     width: 65%;
     top: -250px;
-    left: 30%;
     right: 5%;
+    left: 30%;
     background-color: red;
    }
 
 
-   /* .subcontents{
+.subcontents{
+    position: relative;
+    display: inline-block;
+    margin-right: 1%;
     min-height: 200px;
-    width: 210px;
+    width: 30%;
+    top: 30px;
+    left: 3%;
     background-color: yellow;
    }
-   #advertisement{
+
+#advertisement{
+    position: relative;
     min-height: 120px;
-    width: 660px;
+    width: 93.5%;
+    top: 50px;
+    left: 3%;
     background-color: purple;
-   } */
+   }

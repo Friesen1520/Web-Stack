@@ -1,0 +1,88 @@
+/* For learning purpose, I've removed some selectors and elements. Use it as reference, try to code all single codes by yourselves. So Good Luck All :)*/
+*{
+ margin: 0px;
+ padding: 0px;
+}
+#wrapper{
+
+ width: 970px;
+ background-color: #1A335D;
+ margin: 0px auto;
+ padding: 10px;
+}
+
+#parent{
+	display: inline-block;
+}
+
+#header{
+ background-color: #CF2F35;
+ color: white;
+ border-radius: 8px;
+ padding-top: 10px;
+ padding-bottom: 10px;
+ padding-left: 10px;
+ margin-bottom: 10px;
+}
+#navigation{
+ min-height: 200px;
+ width: 225px;
+ background-color: #297D8C;
+ color: white;
+ border-radius: 8px;
+}
+
+a:visited{
+	color: white;
+}
+
+#home{
+	margin-left: 15px;
+}
+#links {
+	margin-left: 35px;
+	color: white;
+}
+#inline{
+	margin-left: 20px;
+}
+#main_content{
+ 
+ width: 650px;
+ height: 500px;
+ background-color: #0C1721;
+ display: inline-block;
+ vertical-align: top;
+ margin-top: 10px;
+ padding-left: 50px;
+ border-radius: 8px;
+}
+#javascript{
+	color:#297D8C;
+}
+p{
+	color:white;
+	font-size: 14.5px;
+	margin-left: -20px;
+}
+
+h2{
+	color:white;
+	margin-top: 15px;
+	margin-left: -20px;
+}
+li{
+	color: white;
+	font-size: 14.5px;
+}
+
+#more_info{
+ background-color: #5D6573;
+ margin-top: 10px;
+ border-radius: 8px;
+ padding:10px;
+
+}
+#footer{
+	margin-left: 15px;
+}
