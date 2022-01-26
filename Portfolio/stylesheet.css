@@ -74,7 +74,7 @@ main {
 #buttonA {
     width: 170px;
     margin-right: 25px;
-    color: #CB807D; 
+    color: #FF6978; 
     font-size: 24px; 
     line-height: 24px; 
     padding: 17px; 
@@ -90,7 +90,7 @@ main {
 #buttonG {
     width: 170px;
     margin-right: 25px;
-    color: #CB807D; 
+    color: #FF6978; 
     font-size: 24px; 
     line-height: 24px; 
     padding: 17px; 
@@ -104,21 +104,21 @@ main {
 }
 
 #buttonA:hover {
-    background: #CB807D; 
+    background: #FF6978; 
     color: #32828A;
 }
 
 #buttonA:active {
-    background: #CB807D; 
+    background: #FF6978; 
     color: #32828A;
 }
 
 #buttonG:hover {
-    background: #CB807D; 
+    background: #FF6978; 
     color: #32828A;
 }
 
 #buttonG:active {
-    background: #CB807D; 
+    background: #FF6978; 
     color: #32828A;
 }
