@@ -65,27 +65,11 @@ header {
     margin-bottom: 20px;
 }
 
-
-#image {
+#detail {
     position: relative;
     float: left;
     height: 500px;
-    width: 40%;
-    border-radius: 10px;
-}
-
-#headshot {
-    display: block;
-    max-height: 100%;
-    margin-right: auto;
-    margin-left: auto;
-}
-
-#detail {
-    position: relative;
-    float: right;
-    height: 500px;
-    width: 58%;
+    width: 50%;
     background-color: #27282a;
     box-shadow: 0px 0px 4px 4px #27282a;
     border-radius: 10px;
@@ -93,59 +77,45 @@ header {
 
 #title {
     position: relative;
-    float: right;
     height: 70px;
-    width: 90%;
-    margin-right: 5%;
-    margin-top: 10px;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 50px;
     color: #32828A;
-    font-family: "Montserrat", sans-serif;
-}
-
-h1 {
     font-size: 50px;
-}
-
-#desc {
-    position: relative;
-    float: right;
-    height: 200px;
-    width: 90%;
-    margin-right: 5%;
-    margin-top: 90px;
-    color: #32828A;
     font-family: "Montserrat", sans-serif;
+    text-align: center;
+    line-height: 70px;
 }
 
-ul {
+.desc {
+    position: relative;
+    height: 300px;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 30px;
+    color: #32828A;
     font-size: 20px;
+    font-family: "Montserrat", sans-serif;
 }
 
-#buttons {
+
+#image {
     position: relative;
     float: right;
-    height: 80px;
-    width: 70%;
-    margin-right: 20%;
-    margin-top: -10px;
+    right: 5%;
+    height: 120%;
+    width: 40%;
 }
 
-.homebuttons {
-    position: relative;
-    float: left;
-    height: 100%;
-    width: 150px;
-    margin-right: 20px;
-    border: hidden;
-    background-color: #141516;
+#aboutme {
+    display: block;
+    padding: 0;
+    border: 20px solid #32828A;
+    box-shadow: 0px 0px 4px 4px #32828A;
     border-radius: 8px;
-    color: #32828A;
-    font-family: "Montserrat", sans-serif;
-    font-size: 15px;
-    transition: 0.3s;
+    max-height: 120%;
+    margin-right: 5%;
+    margin-left: auto;
 }
 
-.homebuttons:hover{
-    color: #FF6978;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
-}
