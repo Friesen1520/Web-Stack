@@ -93,29 +93,41 @@ header {
     height: 300px;
     width: 80%;
     margin-left: 10%;
-    margin-top: 30px;
+    margin-top: 70px;
     color: #32828A;
     font-size: 20px;
     font-family: "Montserrat", sans-serif;
 }
 
-
 #image {
     position: relative;
     float: right;
-    right: 5%;
-    height: 120%;
-    width: 40%;
+    display: flex;
+    justify-content: center;
+    width: 43%;
+    height: 500px;
+    margin-right: 3%;
+    border: 1px solid #32828A;
+    border-radius: 10px;
+    box-shadow: 0px 0px 6px 6px #32828A;
 }
 
-#aboutme {
+#image img{
+    position: inherit;
+    height: inherit;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+/* #aboutme {
     display: block;
+    float: right;
     padding: 0;
     border: 20px solid #32828A;
     box-shadow: 0px 0px 4px 4px #32828A;
     border-radius: 8px;
     max-height: 120%;
-    margin-right: 5%;
+    margin-right: 0;
     margin-left: auto;
-}
+} */
 
