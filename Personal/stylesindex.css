@@ -1,7 +1,7 @@
 body {
     margin: 0px;
     margin-bottom: 30px;
-    background-color: #141516;
+    background: #141516;
 }
 
 header {
@@ -42,12 +42,13 @@ header {
     position: relative;
     float: left;
     height: 100%;
-    width: 90px;
+    width: 100px;
     margin-right: 20px;
     border: hidden;
     background-color: transparent;
     color: #32828A;
     font-family: "Montserrat", sans-serif;
+    font-size: 12px;
     transition: 0.3s;
 }
 
