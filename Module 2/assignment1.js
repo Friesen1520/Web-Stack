@@ -185,3 +185,9 @@
     //     return myarray;
     // }
     // console.log("Problem 13: " + numToStr(n));
+
+    function add(x, y) {
+        return x + y
+    }
+
+    console.log(add(2, 3))
